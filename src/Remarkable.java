@@ -2,24 +2,24 @@ import javax.swing.JOptionPane;
 
 public class Remarkable {
 	public static void main(String[] args) {
-		String Answer;
-		Answer = JOptionPane.showInputDialog("What is your name?");
-	if(Answer.equals("Pranav")){
+		String answer;
+		answer = JOptionPane.showInputDialog("What is your name?");
+	if(answer.equalsIgnoreCase("Pranav")){
 	JOptionPane.showMessageDialog(null, "You have black hair.");
 	}
-	else if(Answer.equals("Ryan")){
+	else if(answer.equalsIgnoreCase("Ryan")){
 		JOptionPane.showMessageDialog(null, "You have brown hair.");
 	}
-	else if(Answer.equals("Phillip")){
+	else if(answer.equalsIgnoreCase("Phillip")){
 		JOptionPane.showMessageDialog(null, "You have black hair.");
 	}
-	else if(Answer.equals("Max")){
+	else if(answer.equalsIgnoreCase("Max")){
 		JOptionPane.showMessageDialog(null, "You have black hair.");
 	}
-	else if(Answer.equals("Kyle")){
+	else if(answer.equalsIgnoreCase("Kyle")){
 		JOptionPane.showMessageDialog(null, "You have black hair.");
 	}
-	else if(Answer.equals("Jackie")){
+	else if(answer.equalsIgnoreCase("Jackie")){
 		JOptionPane.showMessageDialog(null, "You have blonde hair.");
 	}	
 	else {
